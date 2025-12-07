@@ -1,0 +1,15 @@
+baseURL = "http://localhost:1313/"
+languageCode = "it-it"
+title = "Antennista Gigante - Installazione e Riparazione Antenne TV e SAT"
+enableRobotsTXT = true
+
+[params]
+  brand   = "Antennista Gigante"
+  tagline = "Installazione e riparazione antenne TV"
+
+[params.footer]
+  owner   = "Di Elio Gigante"
+  address = "VIA GOFFREDO MAMELI 25 - 20851 LISSONE (MB)"
+  vat     = "P.IVA: 08482330969"
+  phone   = "392 622 5743"
+  payoff  = "Installazione e riparazione antenne TV in provincia di Como e Monza Brianza"
