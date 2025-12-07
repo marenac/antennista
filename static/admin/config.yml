@@ -2,13 +2,16 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "static/uploads"   # dove finiscono i file che carichi dal CMS
+media_folder: "static/uploads"   # dove finiscono i file caricati dal CMS
 public_folder: "/uploads"
 
 collections:
-  - name: "home"
-    label: "Home"
-    file: "content/home.md"
-    fields:
-      - { label: "Titolo", name: "title", widget: "string" }
-      - { label: "Contenuto", name: "body", widget: "markdown" }
+  - name: "impostazioni"
+    label: "Impostazioni sito"
+    files:
+      - file: "content/home.md"
+        label: "Home"
+        name: "home"
+        fields:
+          - { label: "Titolo pagina", name: "title", widget: "string" }
+          - { label: "Contenuto", name: "body", widget: "markdown" }
